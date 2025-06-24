@@ -3,35 +3,34 @@
 
 This project presents a detailed visual and analytical exploration of Nobel Prize winners over the years. Using Python and data visualization libraries, it uncovers patterns and insights into the distribution of Nobel Prizes across time, geography, categories, and demographics.
 
+![Nobel Prize](./Nobel_Prize.png)
+
 ---
 
-## 📘 Project Description
+## 📌 Project Overview
 
-This project is a comprehensive data analysis and visualization of the Nobel Prize dataset. It aims to uncover historical trends and patterns related to Nobel Prize laureates across categories like Physics, Chemistry, Medicine, Literature, Peace, and Economics.
-
-Using Python and libraries like Pandas, Matplotlib, and Seaborn, the project performs in-depth exploratory data analysis (EDA) on various aspects such as:
-- Country-wise distribution of Nobel Prizes
-- Gender representation among winners
-- Age demographics at the time of winning
-- Year-wise and category-wise trends
-
-Interactive and static visualizations provide insights into how the Nobel landscape has evolved over time. The project is documented in a clean and structured Jupyter Notebook, making it suitable for educational use, portfolio building, and demonstrating data storytelling skills.
+The Nobel Prize is one of the most prestigious international awards. This project aims to analyze historical Nobel Prize data and answer questions like:
+- Which countries have received the most Nobel Prizes?
+- How has gender representation evolved among laureates?
+- What is the age distribution of winners?
+- What are the trends across prize categories over the decades?
 
 ---
 
 ## 📁 Files Included
 
 - `notebook.ipynb` — Jupyter Notebook with code, analysis, and visualizations.
-- `nobel.csv` — Dataset containing Nobel Prize winners data.
+- `nobel.csv` — Cleaned dataset of Nobel Prize winners.
+- `Nobel_Prize.png` — Project banner image for visual identity.
 
 ---
 
 ## 📊 Technologies Used
 
-- **Python** — for data analysis
-- **Pandas** — for data manipulation
-- **Matplotlib & Seaborn** — for data visualization
-- **Jupyter Notebook** — for creating the interactive analysis
+- **Python** — for data processing and analysis
+- **Pandas** — to manipulate the Nobel Prize dataset
+- **Matplotlib** & **Seaborn** — for creating insightful visualizations
+- **Jupyter Notebook** — for interactive data exploration and documentation
 
 ---
 
@@ -43,38 +42,47 @@ Interactive and static visualizations provide insights into how the Nobel landsc
    cd nobel-prize-visualization
    ```
 
-2. **Install required packages**:
+2. **Install required libraries**:
    ```bash
    pip install pandas matplotlib seaborn notebook
    ```
 
-3. **Run the notebook**:
+3. **Launch the notebook**:
    ```bash
    jupyter notebook notebook.ipynb
    ```
 
 ---
 
-## 📂 Data Source
+## 📈 Project Goals
 
-- Dataset: `nobel.csv`
-- Source: [Kaggle - Nobel Prize Dataset](https://www.kaggle.com/datasets/szamil/nobel-prize)
+- Perform Exploratory Data Analysis (EDA) on Nobel Prize data
+- Visualize key trends and statistics across categories
+- Explore social patterns like gender and nationality among laureates
+- Present data in a clean, readable, and engaging format
 
 ---
 
-## 📈 Key Insights
+## 📂 Data Source
 
-- The United States leads in the number of Nobel laureates.
-- Male laureates dominate historically, though female representation is increasing.
-- Nobel Prizes are often awarded to individuals aged between 50–60 years.
-- Different categories show unique temporal and geographic patterns.
+- Dataset: `nobel.csv`
+- Originally sourced from: [Kaggle](https://www.kaggle.com/datasets/szamil/nobel-prize)
+
+---
+
+## 🧠 Key Insights
+
+- The United States has the highest number of Nobel laureates.
+- The gender gap is significant but gradually improving.
+- Nobel Prizes are most frequently awarded to individuals aged 50–60.
+- The categories of Peace, Literature, and Economics show unique trends in diversity.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License. You are free to use, distribute, and enhance it with proper attribution.
+This project is licensed under the MIT License. Feel free to use, share, and improve upon it.
 
 ---
 
-> 📊 Made with data, passion, and Python 🐍
+> Developed with 🎓 knowledge, 📊 data, and 💡 curiosity.
